@@ -11,7 +11,7 @@ import numpy as np
 @st.cache_resource
 def load_my_model():
   """Loads and caches the Keras model."""
-  model_path = 'Dog-breed-classification-data/models/20250729-14471753800432-inception_v3_acc_89.h5'
+  model_path = "Dog-breed-classification-data\models\20250729-14471753800432-inception_v3_acc_89.h5"
   model = tf.keras.models.load_model(model_path, compile=False)
   # The 'compile=False' argument is often helpful for inference-only models.
   return model
