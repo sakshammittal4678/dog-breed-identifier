@@ -1,7 +1,4 @@
-TensorFlow 2.x
-TensorFlow Hub
-Pandas
-NumPy
-Matplotlib
-scikit-learn
 streamlit
+tensorflow
+numpy
+Pillow
