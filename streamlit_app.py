@@ -76,8 +76,8 @@ def get_preds(image_data, model):
     return top_5_preds,top_5_conf
 
 # --- Streamlit App UI ---
-st.title("♻️ Trash Segregation Classifier")
-st.write("Upload an image of trash, and the model will predict its category.")
+st.title("🐶 Dog Breed Identifier")
+st.write("Upload a pic of a dog, and the model will predict its breed.")
 
 # Load the model
 model = load_my_model()
